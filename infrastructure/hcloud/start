@@ -1,0 +1,3 @@
+terraform init       # Config Initialization
+terraform plan       # Action check
+terraform apply      # Launch action

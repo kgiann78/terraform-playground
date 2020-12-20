@@ -1,0 +1,13 @@
+
+disk_setup:
+  ${volume_path}:
+    table_type: mbr
+    layout: true
+
+fs_setup:
+   - filesystem: ext4
+     device: ${volume_path}
+     partition: auto
+
+mounts:
+    - [ ${volume_path}, ${mount_point}, auto, "defaults,noexec" ]

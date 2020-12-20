@@ -1,0 +1,2 @@
+hcloud_token = "the token that was created via the web interface hetzner"
+public_key   = "public ssh key"
